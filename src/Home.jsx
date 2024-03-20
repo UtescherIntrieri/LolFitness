@@ -11,6 +11,7 @@ export const Home = props => {
   console.log(tag);
   console.log(summId);
 
+
   return (
     <div>
       <label htmlFor={id}>Summoner puuid: </label>
@@ -19,28 +20,27 @@ export const Home = props => {
     </div>
   )
 
+  // const findSumm = async () => {
+  //   try {
+  //     fetch(`https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${name}/${tag}?api_key=${process.env.REACT_APP_API_KEY}`)
+  //       // fetch(`https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${name}?api_key=RGAPI-7c56ce76-16b6-4c3e-b103-b319ca40ff0f`)
+  //       .then((res) => {
+  //         return res.json();
+  //       })
+  //       .then((data) => {
+  //         console.log(data);
+  //         setSummId(data.puuid)
+  //       })
+  //   } catch (err) {
+  //     console.log(err.message);
+  //   }
+  // }
+  // return (
+  //   <div>
+  //     <label htmlFor={id}>Summoner Name and Tag: </label>
+  //     <input id={id} value={name} onInput={e => setName(e.target.value)} /><input id={id} value={tag} onInput={f => setTag(f.target.value)} /> - Region: BR1 (other regions TBA)
+  //     <button type="submit" onClick={findSumm}>Search</button>
+  //     <Link to={{ pathname: `/${summId}` }}>Register</Link>
+  //   </div>
+  // )
 }
-// const findSumm = async () => {
-//   try {
-//     fetch(`https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/ShakaGoldilocks/Naia?api_key=RGAPI-7c56ce76-16b6-4c3e-b103-b319ca40ff0f`)
-//     // fetch(`https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${name}?api_key=RGAPI-7c56ce76-16b6-4c3e-b103-b319ca40ff0f`)
-//       .then((res) => {
-//         return res.json();
-//       })
-//       .then((data) => {
-//         console.log(data);
-//         setSummId(data)
-//         })
-//   } catch (err) {
-//     console.log(err.message);
-//   }
-// }
-// return (
-//   <div>
-//     <label htmlFor={id}>Summoner Name and Tag: </label>
-//     <input id={id} value={name} onInput={e => setName(e.target.value)} /><input id={id} value={tag} onInput={f => setTag(f.target.value)} /> - Region: BR1 (other regions TBA)
-//     <button type="submit" onClick={findSumm}>Search</button>
-//     <Link to={{pathname: `/${summId}`}}>Register</Link>
-//   </div>
-// )
-// https://br1.api.riotgames.com/lol/summoner/v4/summoners/by-name/ShakaGoldilocks?api_key=RGAPI-7c56ce76-16b6-4c3e-b103-b319ca40ff0f

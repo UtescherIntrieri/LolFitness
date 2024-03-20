@@ -8,8 +8,8 @@ import { Match } from './pages/Match';
 export function App() {
   return (
     <div>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
-      {/* <BrowserRouter> */}
+      {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Root />}>
           <Route path="/" element={<Home />} />
