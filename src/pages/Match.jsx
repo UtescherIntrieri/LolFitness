@@ -66,11 +66,6 @@ export const Match = () => {
           squat = 16
         }
 
-    //     100 Seconds or Less: 2 Sit-up
-    // 100 to 200 Seconds: 3 Sit-ups
-    // 200 to 300 Seconds: 4 Sit-ups
-    // 300+ Seconds: 5 Sit-ups
-
         if (x.totalTimeSpentDead <= 100) {
           sitUp += 2
         } else if (x.totalTimeSpentDead > 100 && x.totalTimeSpentDead <= 200) {
