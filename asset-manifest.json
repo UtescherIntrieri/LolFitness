@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/LolFitness/static/css/main.dd38f914.css",
-    "main.js": "/LolFitness/static/js/main.f4ff24b4.js",
+    "main.js": "/LolFitness/static/js/main.79a10e24.js",
     "static/js/453.3bc4c170.chunk.js": "/LolFitness/static/js/453.3bc4c170.chunk.js",
     "index.html": "/LolFitness/index.html",
     "main.dd38f914.css.map": "/LolFitness/static/css/main.dd38f914.css.map",
-    "main.f4ff24b4.js.map": "/LolFitness/static/js/main.f4ff24b4.js.map",
+    "main.79a10e24.js.map": "/LolFitness/static/js/main.79a10e24.js.map",
     "453.3bc4c170.chunk.js.map": "/LolFitness/static/js/453.3bc4c170.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd38f914.css",
-    "static/js/main.f4ff24b4.js"
+    "static/js/main.79a10e24.js"
   ]
 }
